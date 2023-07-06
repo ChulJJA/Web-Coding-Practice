@@ -6,7 +6,7 @@ body{
 .bg-container{
     position: relative;
     width: 94%;
-    margin: 10vw 3vw;
+    margin: 5vw 3vw;
     overflow: hidden;
     border-radius: 20px;
 }
@@ -18,9 +18,9 @@ body{
     width: 100%;
 }
 
-.bg-container p{
+#text{
     position: absolute;
-    z-index: 99;
+    z-index: 2;
     font-size: 160px;
     font-weight: bold;
     text-align: center;
@@ -28,7 +28,7 @@ body{
     right: 0;
     margin: auto;
     opacity: 0.9;
-    margin-top: 300px;
+    top: 150px;
     color: #fff;
 }
 
