@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+.center{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    width: auto;
+    transform: translate(-50%, -20%);
+}
+.item-lists{
+    position: relative;
+    width: 650px;
+    height: 750px;
+    padding: 20px;
+    border: 1px solid #eee;
+}
+
+.item{
+    position: absolute;
+    background: #fff;
+}
+
+.item:nth-child(1){
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.item:nth-child(2){
+    top: 180px;
+    left: 180px;
+    z-index: 1;
+}
+.item:nth-child(3){
+    top: 360px;
+    left: 360px;
+    z-index: 2;
+}
